@@ -7,8 +7,10 @@ let takeANumber = (current) => {
   if(current.length == 0){
     current.push(1);  
   }
-  
-  current.push(current.length);
+  else{
+    current.push(current.length);
+  }
+
   return "Welcome, you are ticket number " + current.length;
 }
 
