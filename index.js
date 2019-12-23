@@ -1,6 +1,15 @@
-let takeANumber = (current, name) => {
-  current.push(name);
-  return "Welcome, " + name + ". You are number " + (current.length) +" in line.";
+// let takeANumber = (current, name) => {
+//   current.push(name);
+//   return "Welcome, " + name + ". You are number " + (current.length) +" in line.";
+// }
+
+let takeANumber = (current) => {
+  if(current.length == 0){
+    current.push(1);  
+  }
+  
+  current.push(current.length);
+  return "Welcome, you are ticket number " + current.length;
 }
 
 let nowServing = (line) => {
