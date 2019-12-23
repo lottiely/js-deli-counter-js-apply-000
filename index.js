@@ -3,6 +3,8 @@
 //   return "Welcome, " + name + ". You are number " + (current.length) +" in line.";
 // }
 
+currentNumber = 0;
+
 let takeANumber = (current) => {
   if(current.length == 0){
       
