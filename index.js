@@ -4,14 +4,13 @@
 // }
 
 let takeANumber = (current, currentNumber) => {
-  // if(current.length == 0){
-  //   current.push(1);  
-  // }
-  // else{
-  //   current.push(current.length);
-  // }
-
-  return "Welcome, you are ticket number " + current.length;
+  currentNumber++;
+  
+  current.push(currentNumber);
+  if(current.length == 0){
+    current.push(1);  
+  
+  return "Welcome, you are ticket number " + currentNumber;
 }
 
 let nowServing = (line) => {
