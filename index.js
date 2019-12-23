@@ -3,15 +3,11 @@
 //   return "Welcome, " + name + ". You are number " + (current.length) +" in line.";
 // }
 
-currentNumber = 0;
+let currentNumber = 0;
 
 let takeANumber = (current) => {
-  if(current.length == 0){
-      
-  }
   
-  let currentNumber = current[current.length-1];
-  
+  currentNumber++;
   current.push(currentNumber);
   
   return "Welcome, you are ticket number " + currentNumber;
