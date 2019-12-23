@@ -4,7 +4,11 @@
 // }
 
 let takeANumber = (current) => {
-  currentNumber++;
+  if(current.length == 0){
+      
+  }
+  
+  let currentNumber = current[current.length-1];
   
   current.push(currentNumber);
   
