@@ -3,13 +3,13 @@
 //   return "Welcome, " + name + ". You are number " + (current.length) +" in line.";
 // }
 
-let takeANumber = (current) => {
-  if(current.length == 0){
-    current.push(1);  
-  }
-  else{
-    current.push(current.length);
-  }
+let takeANumber = (current, currentNumber) => {
+  // if(current.length == 0){
+  //   current.push(1);  
+  // }
+  // else{
+  //   current.push(current.length);
+  // }
 
   return "Welcome, you are ticket number " + current.length;
 }
