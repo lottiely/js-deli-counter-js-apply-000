@@ -3,12 +3,10 @@
 //   return "Welcome, " + name + ". You are number " + (current.length) +" in line.";
 // }
 
-let takeANumber = (current, currentNumber) => {
+let takeANumber = (current) => {
   currentNumber++;
   
   current.push(currentNumber);
-  if(current.length == 0){
-    current.push(1);  
   
   return "Welcome, you are ticket number " + currentNumber;
 }
